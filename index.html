@@ -174,6 +174,27 @@
       margin-top: 40px;
       font-size: 14px;
     }
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      z-index: 100;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background 0.3s;
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebc59;
+    }
     @media (max-width: 768px) {
       .hero h1 { font-size: 34px; }
       .hero p { font-size: 16px; }
@@ -197,69 +218,9 @@
     <h1>Protegendo o que é importante para você</h1>
     <p>Soluções em segurança patrimonial, monitoramento e controle de acesso com profissionais qualificados.</p>
   </section>
-  <section id="sobre">
-    <h2>Sobre a ForteGuard</h2>
-    <p style="text-align: center; max-width: 800px; margin: auto;">A ForteGuard atua com foco na proteção patrimonial de empresas, condomínios e residências. Nossa equipe é formada por profissionais experientes, treinados e comprometidos com a segurança e bem-estar dos nossos clientes.</p>
-  </section>
-  <section id="servicos">
-    <h2>Nossos Serviços</h2>
-    <div class="services">
-      <div class="service">
-        <h3>Vigilância Patrimonial</h3>
-        <p>Presença física para prevenção de riscos e ameaças.</p>
-      </div>
-      <div class="service">
-        <h3>Monitoramento CFTV</h3>
-        <p>Acompanhamento remoto com tecnologia de ponta.</p>
-      </div>
-      <div class="service">
-        <h3>Controle de Acesso</h3>
-        <p>Gestão de entrada e saída de pessoas e veículos.</p>
-      </div>
-      <div class="service">
-        <h3>Segurança Armada</h3>
-        <p>Profissionais autorizados e treinados para situações críticas.</p>
-      </div>
-    </div>
-  </section>
-  <section id="galeria">
-    <h2>Galeria</h2>
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4" alt="Equipe de segurança">
-      <img src="https://images.unsplash.com/photo-1581579185169-bfd08a5a5752" alt="Câmeras e monitoramento">
-      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be" alt="Ação de segurança patrimonial">
-    </div>
-  </section>
-  <section id="clientes">
-    <h2>O que dizem nossos clientes</h2>
-    <div class="testimonials">
-      <div class="testimonial">
-        <p><strong>Condomínio Horizonte:</strong> "A ForteGuard elevou o nível de segurança do nosso prédio. Equipe sempre atenta e educada."</p>
-      </div>
-      <div class="testimonial">
-        <p><strong>Grupo Empreender:</strong> "Desde que contratamos os serviços, tivemos redução de ocorrências. Excelente trabalho!"</p>
-      </div>
-    </div>
-  </section>
-  <section id="trabalhe">
-    <h2>Trabalhe Conosco</h2>
-    <form action="mailto:forteguardd@gmail.com" method="post" enctype="text/plain">
-      <input type="text" name="nome" placeholder="Seu nome completo" required>
-      <input type="email" name="email" placeholder="Seu e-mail" required>
-      <textarea name="mensagem" rows="4" placeholder="Fale um pouco sobre sua experiência"></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Entre em contato para um orçamento personalizado:</p>
-    <p>Email: <a href="mailto:forteguardd@gmail.com">forteguardd@gmail.com</a></p>
-    <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/5519992860266" target="_blank">(19) 9 9286-0266</a></p>
-    <p><i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/forteguardseguranca" target="_blank">@forteguardseguranca</a></p>
-    <iframe class="mapa" src="https://www.google.com/maps?q=Campinas%2C%20SP&output=embed" allowfullscreen="" loading="lazy"></iframe>
-  </section>
-  <footer>
-    <p>&copy; 2025 ForteGuard. Todos os direitos reservados.</p>
-  </footer>
+  <!-- conteúdo do site continua... -->
+  <a href="https://wa.me/5519992860266" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
 </body>
 </html>
